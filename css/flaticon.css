@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 40px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-access9:before {
+	content: "\e000";
+}
+.flaticon-animal265:before {
+	content: "\e001";
+}
+.flaticon-building144:before {
+	content: "\e002";
+}
+.flaticon-cranes3:before {
+	content: "\e003";
+}
+.flaticon-drop41:before {
+	content: "\e004";
+}
+.flaticon-flats:before {
+	content: "\e005";
+}
+.flaticon-garages:before {
+	content: "\e006";
+}
+.flaticon-home180:before {
+	content: "\e007";
+}
+.flaticon-house250:before {
+	content: "\e008";
+}
+.flaticon-house251:before {
+	content: "\e009";
+}
+.flaticon-house252:before {
+	content: "\e00a";
+}
+.flaticon-house253:before {
+	content: "\e00b";
+}
+.flaticon-house254:before {
+	content: "\e00c";
+}
+.flaticon-houses22:before {
+	content: "\e00d";
+}
+.flaticon-houses23:before {
+	content: "\e00e";
+}
+.flaticon-indication:before {
+	content: "\e00f";
+}
+.flaticon-man81:before {
+	content: "\e010";
+}
+.flaticon-man82:before {
+	content: "\e011";
+}
+.flaticon-painter26:before {
+	content: "\e012";
+}
+.flaticon-speech-bubble75:before {
+	content: "\e013";
+}

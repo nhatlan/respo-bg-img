@@ -1,0 +1,65 @@
+html,
+body, 
+.container, 
+.container section{
+	height: 100%;
+}
+html {
+    background-image:url(img/open.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.scrolled {
+    background-image:url(img/1.jpg);
+}
+.nav{
+	position:fixed;
+	left: 40%; 
+	transform: translateX(-40%)
+	z-index: 9999; 
+	top: 1em;
+}
+.nav> li{
+	display: inline-block;
+}
+
+.nav >li > a{
+	text-decoration: none; 
+	color: rgb(79,74,98);
+}
+.container section{
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(252,247,289);
+}
+#sec1 article, #sec2 article{
+	font-size: 2em;
+	text-align: center; 
+	letter-spacing: 0.015em; 
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	margin:auto; 
+	height:5em; 
+}
+
+#sec3 article, #sec4 article, #sec5 article{
+	padding:1em;
+	width:40%;
+	font-size: 1.5em;
+	font-weight: normal; 
+	letter-spacing: 0.019em; 
+	line-height: 1.2; 
+}
