@@ -1,0 +1,10 @@
+html{
+	font-family: 'Roboto', sans-serif;	
+}
+.container{
+	background-img: url(../img/open.jpg);
+	background-size: cover;
+}
+article{
+
+}
